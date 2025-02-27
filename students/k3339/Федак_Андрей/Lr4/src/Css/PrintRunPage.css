@@ -1,0 +1,63 @@
+
+
+.print-runs-container h2,
+.print-runs-container h3,
+.print-runs-container h4 {
+    color: #006400;
+}
+
+.print-runs-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.print-runs-container th,
+.print-runs-container td {
+    border: 1px solid #006400;
+    padding: 10px;
+    text-align: left;
+}
+
+.print-runs-container th {
+    background-color: #ccffcc;
+}
+
+.print-runs-container tr:hover {
+    background-color: #e6ffe6;
+}
+
+.print-runs-container button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.print-runs-container button:hover {
+    background-color: #32cd32;
+}
+
+.print-runs-container input[type="text"],
+.print-runs-container input[type="number"],
+.print-runs-container input[type="date"],
+.print-runs-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #006400;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.print-runs-container input[type="text"]:focus,
+.print-runs-container input[type="number"]:focus,
+.print-runs-container input[type="date"]:focus,
+.print-runs-container select:focus {
+    border-color: #32cd32;
+    outline: none;
+    box-shadow: 0 0 5px rgba(50, 205, 50, 0.5);
+}

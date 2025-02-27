@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfffc4;
+    border-bottom: 2px solid #76f803;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #44cc00;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #66ff96;
+}
+
+.btn-link {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: #113401;
+}

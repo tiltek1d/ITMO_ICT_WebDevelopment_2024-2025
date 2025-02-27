@@ -1,0 +1,72 @@
+.newspaper-container h2,
+.newspaper-container h3,
+.newspaper-container h4 {
+    color: #006400;
+}
+
+.newspaper-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.newspaper-container th,
+.newspaper-container td {
+    border: 1px solid #006400;
+    padding: 10px;
+    text-align: left;
+}
+
+.newspaper-container th {
+    background-color: #ccffcc;
+}
+
+.newspaper-container tr:hover {
+    background-color: #e6ffe6;
+}
+
+.newspaper-container button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newspaper-container button:hover {
+    background-color: #32cd32;
+}
+
+.newspaper-container input[type="text"],
+.newspaper-container input[type="number"],
+.newspaper-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #006400;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.newspaper-container input[type="text"]:focus,
+.newspaper-container input[type="number"]:focus,
+.newspaper-container select:focus {
+    border-color: #32cd32;
+    outline: none;
+    box-shadow: 0 0 5px rgba(50, 205, 50, 0.5);
+}
+
+
+.newspaper-container select {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.newspaper-container select option {
+    padding: 10px;
+    background-color: #f0f8f0;
+}

@@ -1,0 +1,56 @@
+.authors-container h2,
+.authors-container h3 {
+    color: #006400;
+}
+
+.authors-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.authors-container th,
+.authors-container td {
+    border: 1px solid #006400;
+    padding: 10px;
+    text-align: left;
+}
+
+.authors-container th {
+    background-color: #ccffcc;
+}
+
+.authors-container tr:hover {
+    background-color: #e6ffe6;
+}
+
+.authors-container button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.authors-container button:hover {
+    background-color: #32cd32;
+}
+
+.authors-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #006400;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.authors-container input[type="text"]:focus {
+    border-color: #32cd32;
+    outline: none;
+    box-shadow: 0 0 5px rgba(50, 205, 50, 0.5);
+}

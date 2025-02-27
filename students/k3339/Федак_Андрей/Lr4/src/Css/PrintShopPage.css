@@ -1,0 +1,40 @@
+.print-shops-container h2,
+.print-shops-container h3 {
+    color: #006400;
+}
+
+.print-shops-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.print-shops-container th,
+.print-shops-container td {
+    border: 1px solid #006400;
+    padding: 10px;
+    text-align: left;
+}
+
+.print-shops-container th {
+    background-color: #ccffcc;
+}
+
+.print-shops-container tr:hover {
+    background-color: #e6ffe6;
+}
+
+.print-shops-container button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.print-shops-container button:hover {
+    background-color: #32cd32;
+}
